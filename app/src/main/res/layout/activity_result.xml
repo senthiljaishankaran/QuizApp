@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".activities.ResultActivity">
+
+    <TextView
+        android:id="@+id/ResultTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Result"
+        android:textColor="@color/purple_500"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        />
+
+    <ImageView
+        android:id="@+id/cupImage"
+        android:layout_width="match_parent"
+        android:layout_height="150sp"
+        android:src="@drawable/cup"
+        android:layout_marginTop="20sp"
+        />
+    <TextView
+        android:id="@+id/congratsText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Congratulations !"
+        android:textColor="@color/purple_500"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="UserName"
+        android:textColor="@color/purple_500"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textSize="20sp"
+        android:textColor="@color/purple_500"
+        android:layout_marginTop="10dp"
+        tools:text="your score"
+        android:gravity="center"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/finishButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
